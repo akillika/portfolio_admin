@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/receivedprojects.dart';
+
 
 class MyApp extends StatefulWidget {
   @override
@@ -10,9 +10,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes: {
-        'receivedprojects':(_)=>receivedprojects(),
-      },
+     
       home: HomePage(),
     );
   }
