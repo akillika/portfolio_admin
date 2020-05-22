@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
                 print(e);
               });
               Navigator.of(context).pop();
-              Navigator.of(context).pushReplacementNamed('/loginpage');
+              Navigator.of(context).pushReplacementNamed('loginpage');
             },
           ),
         ],
